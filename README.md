@@ -30,7 +30,4 @@ The portfolio will be designed to:
 - Node.js and Express (for backend contact form functionality, if needed)
 - GitHub Pages (or other hosting services)
 
-## Installation and Setup
-
-To run this project locally, follow these steps:
 
