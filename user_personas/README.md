@@ -8,6 +8,12 @@ User personas help guide decisions about the website's structure, functionality,
 
 Ultimately, this section helps ensure the website serves its primary purpose of showcasing the student's skills and experience while making it easier for the intended audiences to navigate, engage, and take action.
 
+## Persona Types
+The personas should include the following types:
+- End Users of the Software: The individuals who will use the software in their daily activities.
+- Developers of the Software: The team members responsible for designing, coding, and maintaining the software.
+- Owner of the Software: The person or entity that owns the rights to the software and oversees its development and distribution.
+
 ## Key Characteristics for User Personas
 
 When creating the user personas, the following characteristics should be considered for each persona:
