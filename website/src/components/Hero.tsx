@@ -1,3 +1,4 @@
+'use client'
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -130,7 +131,7 @@ export default function Hero() {
               size="small"
               sx={{ minWidth: 'fit-content' }}
             >
-              Start now
+              Go now
             </Button>
           </Stack>
           <Typography
@@ -145,7 +146,6 @@ export default function Hero() {
             .
           </Typography>
         </Stack>
-        <StyledBox id="image" />
       </Container>
     </Box>
   );
