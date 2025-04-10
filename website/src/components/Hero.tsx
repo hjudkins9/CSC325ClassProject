@@ -146,6 +146,7 @@ export default function Hero() {
             .
           </Typography>
         </Stack>
+        <StyledBox id="image" />
       </Container>
     </Box>
   );
