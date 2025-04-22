@@ -1,0 +1,51 @@
+[debug] [2025-04-22T20:29:25.937Z] ----------------------------------------------------------------------
+[debug] [2025-04-22T20:29:25.939Z] Command:       /usr/local/share/nvm/versions/node/v22.14.0/bin/node /usr/local/share/nvm/versions/node/v22.14.0/bin/firebase init hosting:github
+[debug] [2025-04-22T20:29:25.939Z] CLI Version:   14.2.0
+[debug] [2025-04-22T20:29:25.939Z] Platform:      linux
+[debug] [2025-04-22T20:29:25.939Z] Node Version:  v22.14.0
+[debug] [2025-04-22T20:29:25.940Z] Time:          Tue Apr 22 2025 20:29:25 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-04-22T20:29:25.940Z] Env Overrides: GITHUB_API_URL, GITHUB_API_URL
+[debug] [2025-04-22T20:29:25.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-22T20:29:26.168Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-22T20:29:26.168Z] > authorizing via signed-in user (hjudkins9@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/CSC325ClassProject/website
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-22T20:29:26.171Z] Using project from CLI flag: portfolio-b1492
+[debug] [2025-04-22T20:29:26.172Z] Checked if tokens are valid: true, expires at: 1745355703173
+[debug] [2025-04-22T20:29:26.172Z] Checked if tokens are valid: true, expires at: 1745355703173
+[debug] [2025-04-22T20:29:26.173Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-b1492 [none]
+[debug] [2025-04-22T20:29:26.513Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-b1492 200
+[debug] [2025-04-22T20:29:26.513Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-b1492 {"projectId":"portfolio-b1492","projectNumber":"694114273214","displayName":"325Portfolio","name":"projects/portfolio-b1492","resources":{"hostingSite":"portfolio-b1492"},"state":"ACTIVE","etag":"1_b5b949d5-66b7-44b2-918a-3149604a020e"}
+[info] i  Using project portfolio-b1492 (325Portfolio) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /workspaces/CSC325ClassProject 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=642293981&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
